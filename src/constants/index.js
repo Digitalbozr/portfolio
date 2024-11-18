@@ -36,45 +36,10 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
-
 export const myProjects = [
   {
     title: 'SmartIrrig ',
-    desc: 'SmartIrrig is an IoT-based system for remote irrigation control. It utilizes an ESP32 device for data collection and irrigation management, with communication via the HTTP protocol. The user interface is built using HTML, CSS, and JavaScript, and the backend is powered by PHP and MySQL for data handling . SmartIrrig optimizes water usage and enhances productivity through automated irrigation, offering a user-friendly web interface accessible from anywhere.',
+    desc: 'Smart Irrigation is an IoT-based system designed to optimize agricultural water use and monitor soil conditions in real-time. The project tracks soil moisture levels, water usage, and automates irrigation to ensure efficient water management.',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -86,31 +51,40 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'arduino.h',
+
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'esp32',
+
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'reactNative',
+
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'firebase',
+
       },
+      {
+        id: 5,
+        name: 'Javascript',
+      },
+      {
+        id: 6,
+        name: 'R3F',
+      },
+
     ],
   },
   {
-    title: 'EggSmart',
-    desc: 'Incubator 4.0 System is a smart, IoT-based incubation solution that automates temperature and humidity control for optimal egg hatching. Powered by ESP, Arduino, and PID control, it offers real-time monitoring and adjustments through a responsive web interface built with HTML, CSS, and JavaScript, and managed by an Express backend. Designed in Blender, EggSmart provides an efficient, high-tech approach to modern incubation.',
+    title: 'Portfolio',
+    desc: 'A modern and interactive portfolio designed to showcase my skills and projects. Built with React, React Three Fiber (R3F), and Vite for a fast and seamless user experience. The design incorporates animations using Framer Motion, while 3D elements were created with Blender, bringing creativity and interactivity to life. This portfolio reflects my technical expertise and attention to detail.',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/portfoliologo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -120,60 +94,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'React',
+
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'javascript',
+
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Controller PID ',
-    desc: 'This project involves the development of a versatile PID (Proportional-Integral-Derivative) controller using Arduino. It allows real-time adjustment of PID parameters (Kp, Ki, Kd) through analog inputs, enabling precise control of various processes such as temperature regulation and motor speed.',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+
       },
       {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        id: 5,
+        name: 'blender',
       },
       {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        id: 6,
+        name: 'R3F',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+
     ],
   },
 
@@ -190,40 +137,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   };
 };
 
-export const workExperiences = [
-  {
-    id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
-    animation: 'victory',
-  },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
-];
 export const Experiences = [
   {
     id: 1,
     name: 'internship in an agatronic company    ',
-    duration: '8-07-2023 => 9-30-2023    ',
+    duration: '8-2023 => 9-2023    ',
     title: "Selling electronic components , mechanical manudacture.    ",
     icon: '/assets/agatronic.png',
     animation: 'victory',
@@ -231,7 +149,7 @@ export const Experiences = [
   {
     id: 2,
     name: 'internship in an agri4.0 company    ',
-    duration: '1-10-2023 => 31-7-2024    ',
+    duration: '1-2024 => 7-2024    ',
     title: "IOT Solution    ",
     icon: '/assets/logoagri.svg',
     animation: 'victory',
@@ -256,14 +174,7 @@ export const Educations = [
     icon: '/assets/ofppt.png',
     animation: 'victory',
   },
-  {
-    id: 3,
-    name: 'Study of electrical engineering , elecronic and robotics , automation systems',
-    duration: '2021-2023',
-    place: "ISTA ASSAKA TIKIOUINE",
-    icon: '/assets/ofppt.png',
-    animation: 'victory',
-  },
+
   {
     id: 4,
     name: 'Baccalaureate physics and chemistry sciences',

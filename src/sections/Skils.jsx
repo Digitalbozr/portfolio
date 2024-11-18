@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import { FaHtml5 ,FaCss3Alt , FaJs , FaNodeJs , FaReact ,FaBootstrap , FaPython ,FaRaspberryPi ,FaPhp  } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress ,SiMqtt ,SiCplusplus,SiMicropython , SiMysql , SiMongodb ,SiAdobephotoshop ,SiAdobeillustrator ,SiAdobeaftereffects ,SiArduino ,SiProteus  , SiKicad ,SiEasyeda ,SiNodered, SiAdobepremierepro, SiTailwindcss, SiPhp   } from "react-icons/si";
+import { SiExpress , SiFramer ,SiMqtt ,SiCplusplus,SiMicropython , SiMysql , SiMongodb ,SiAdobephotoshop ,SiAdobeillustrator ,SiAdobeaftereffects ,SiArduino ,SiProteus  , SiKicad ,SiEasyeda ,SiNodered, SiAdobepremierepro, SiTailwindcss, SiPhp   } from "react-icons/si";
 import { BiLogoBlender } from "react-icons/bi";
 import { MdHttp } from "react-icons/md";
 import { TbBrandThreejs } from "react-icons/tb";

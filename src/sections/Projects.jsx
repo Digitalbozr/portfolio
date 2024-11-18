@@ -1,12 +1,8 @@
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Suspense, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { Center, OrbitControls } from '@react-three/drei';
+import { useState } from 'react';
 
 import { myProjects } from '../constants/index.js';
-import CanvasLoader from '../components/Loading.jsx';
-import DemoComputer from '../components/DemoComputer.jsx';
 
 const projectCount = myProjects.length;
 
@@ -40,7 +36,7 @@ const Projects = () => {
           </div>
 
           <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
-            <img className="w-10 h-10 shadow-sm" src={currentProject.logo} alt="logo" />
+            <img className="w-10 h-10 shadow-sm scale-125" src={currentProject.logo} alt="logo" />
           </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
@@ -48,12 +44,12 @@ const Projects = () => {
 
             <p className="animatedText">{currentProject.desc}</p>
           </div>
-
+          <div className='text-white-800 text-lg'>Technologies used</div>
           <div className="flex items-center justify-between flex-wrap gap-5">
             <div className="flex items-center gap-3">
               {currentProject.tags.map((tag, index) => (
-                <div key={index} className="tech-logo">
-                  <img src={tag.path} alt={tag.name} />
+                <div key={index} className="tech-logo p-1">
+                  #{tag.name}
                 </div>
               ))}
             </div>
@@ -73,18 +69,7 @@ const Projects = () => {
         </div>
 
         <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
-          <Canvas>
-            <ambientLight intensity={Math.PI} />
-            <directionalLight position={[10, 10, 5]} />
-            <Center>
-              <Suspense fallback={<CanvasLoader />}>
-                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
-                  <DemoComputer texture={currentProject.texture} />
-                </group>
-              </Suspense>
-            </Center>
-            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
-          </Canvas>
+
         </div>
       </div>
     </section>

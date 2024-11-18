@@ -2,12 +2,8 @@ import { Suspense, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { CgProfile } from "react-icons/cg";
-import { IoIosCall } from "react-icons/io";
-import { MdEmail } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
 import Developer from '../components/Developer2.jsx';
 import CanvasLoader from '../components/Loading.jsx';
-import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
   // const [animationName, setAnimationName] = useState('idle');

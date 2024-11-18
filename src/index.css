@@ -88,7 +88,7 @@ body {
   }
 
   .tech-logo {
-    @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+    @apply text-sm text-white rounded-md  bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
   }
 
   /* clients section */
@@ -131,7 +131,7 @@ body {
 
   /* contact section */
   .contact-container {
-    @apply max-w-2xl  relative z-10 sm:px-10 px-5 mt-12;
+    @apply max-w-2xl w-full relative z-10 sm:px-10 px-5 mt-12;
   }
 
   .field-label {

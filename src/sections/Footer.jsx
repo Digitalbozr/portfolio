@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="flex justify-between items-center  c-space pt-7 mt-32 pb-3 border-t border-black-300 h-20">
       <div className="text-white-500 w-52 md:block hidden">
-        <p>BOZR </p>
+        <p>A_ELBOUZARI</p>
       </div>
 
         <div className="social-icon w-52">

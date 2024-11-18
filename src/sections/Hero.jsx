@@ -25,11 +25,11 @@ const Hero = () => {
               animate={{  opacity: 1, y: 0 }}
               
             >
-          <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-            Hi, I am Bozr  <span className="waving-hand">👋</span>
+          <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans ">
+            Hi, I am A_ELBOUZARI  <span className="waving-hand">👋</span>
           </p>
         </motion.div>
-        <p className="hero_tag text-gray_gradient">Electronics , Automation Systems and Robotics</p>
+        <p className="hero_tag text-gray_gradient">Electronics , IOT , Robotics , FullStack </p>
       </div>
 
       <div className="w-full h-full absolute inset-0">

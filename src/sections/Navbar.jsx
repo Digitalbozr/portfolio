@@ -24,13 +24,13 @@ const Navbar = (stylebg) => {
   return (
     <header className="fixed top-2 left-0 right-0 z-50 ">
       <div className="xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-lg mx-auto  rounded-full  transition-all duration-1000 ease-in-out backdrop-blur-md " id='bg'>
-        <div className="flex justify-between items-center py-3 mx-auto c-space">
+        <div className="flex justify-between sm:justify-center items-center py-3 mx-auto c-space">
           <motion.div      
               initial={{  opacity: 0, scale: 1 }}
               animate={{  opacity: 1, scale: 1 }}
             >
-            <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
-              Bozr
+            <a href="/" className="text-orange-500 font-bold text-xl hover:text-orange-400 transition-colors inline sm:hidden ">
+              A_ELBOUZARI
             </a>
 
           </motion.div>

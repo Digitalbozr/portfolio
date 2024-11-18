@@ -16,16 +16,21 @@ export const navLinks = [
   },
   {
     id: 4,
+    name: 'A_ELBOUZARI',
+    href: '#Hero',
+  },
+  {
+    id: 5,
     name: 'Skils',
     href: '#Skils',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Project',
     href: '#Project',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Contact',
     href: '#contact',
   },

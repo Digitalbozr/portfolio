@@ -41,13 +41,13 @@ export const myProjects = [
     title: 'SmartIrrig ',
     desc: 'Smart Irrigation is an IoT-based system designed to optimize agricultural water use and monitor soil conditions in real-time. The project tracks soil moisture levels, water usage, and automates irrigation to ensure efficient water management.',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/smartirg.png',
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      backgroundColor: '#194e1a',
+      border: '0.2px solid #30b82f',
+      boxShadow: '0px 0px 60px 0px #1e771e',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
@@ -108,11 +108,6 @@ export const myProjects = [
 
       },
       {
-        id: 4,
-        name: 'Framer Motion',
-
-      },
-      {
         id: 5,
         name: 'blender',
       },
@@ -120,6 +115,12 @@ export const myProjects = [
         id: 6,
         name: 'R3F',
       },
+      {
+        id: 4,
+        name: 'Framer Motion',
+
+      },
+
 
     ],
   },

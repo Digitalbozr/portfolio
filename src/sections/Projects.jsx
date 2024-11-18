@@ -44,15 +44,15 @@ const Projects = () => {
 
             <p className="animatedText">{currentProject.desc}</p>
           </div>
-          <div className='text-white-800 text-lg'>Technologies used</div>
-          <div className="flex items-center justify-between flex-wrap gap-5">
-            <div className="flex items-center gap-3">
+          <div className='text-white-800 text-lg '>Technologies used</div>
+          
+            <div className="w-full flex flex-row flex-wrap ">
               {currentProject.tags.map((tag, index) => (
-                <div key={index} className="tech-logo p-1">
+                <div key={index} className="tech-logo p-1 ">
                   #{tag.name}
                 </div>
               ))}
-            </div>
+            
 
 
           </div>

@@ -40,7 +40,7 @@ export const myProjects = [
   {
     title: 'SmartIrrig ',
     desc: 'Smart Irrigation is an IoT-based system designed to optimize agricultural water use and monitor soil conditions in real-time. The project tracks soil moisture levels, water usage, and automates irrigation to ensure efficient water management.',
-    texture: '/textures/project/project1.mp4',
+    photo: '/assets/irri-min.jpg',
     logo: '/assets/smartirg.png',
     logoStyle: {
       backgroundColor: '#194e1a',
@@ -83,7 +83,7 @@ export const myProjects = [
   {
     title: 'Portfolio',
     desc: 'A modern and interactive portfolio designed to showcase my skills and projects. Built with React, React Three Fiber (R3F), and Vite for a fast and seamless user experience. The design incorporates animations using Framer Motion, while 3D elements were created with Blender, bringing creativity and interactivity to life. This portfolio reflects my technical expertise and attention to detail.',
-    texture: '/textures/project/project2.mp4',
+    photo: '/assets/port-min.jpg',
     logo: '/assets/portfoliologo.png',
     logoStyle: {
       backgroundColor: '#13202F',

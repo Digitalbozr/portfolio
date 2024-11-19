@@ -68,7 +68,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+        <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full" style={{backgroundImage:`URL(${currentProject.photo})` , backgroundSize: 'cover' , backgroundPosition: 'center'}}>
 
         </div>
       </div>

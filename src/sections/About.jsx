@@ -49,7 +49,8 @@ const WorkExperience = () => {
                       <p className="text-sm sm:text-lg text-justify ">
                           My name is Ayoub Elbouzari, and I am a 23-year-old programmer specializing in microcontrollers, electronics, and PLC programming. I have extensive experience in developing IoT systems, working with devices like ESP32, and integrating them into practical solutions such as remote irrigation systems and automated incubators. While I also have skills in web development and 2D/3D design, my main focus is on programming embedded systems, designing electronic circuits, and working with PLCs to create smarter, more efficient systems.
                       </p>
-
+                      <br/>
+                      <p>Phone number : 0680381809</p>
                     </div>
               </div>
 
